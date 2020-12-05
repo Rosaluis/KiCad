@@ -1,0 +1,37 @@
+Info: Kontroluji netlist součástky pouzdro "R4:/5FCD3330:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "A1:/5FC8165F:Module:Arduino_Nano".
+Info: Kontroluji netlist součástky pouzdro "J7:/5FCE20E3:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "J8:/5FCE20E9:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "Q1:/5FCBA2B3:Package_TO_SOT_THT:TO-220-3_Vertical".
+Info: Kontroluji netlist součástky pouzdro "Q2:/5FCE209D:Package_TO_SOT_THT:TO-220-3_Vertical".
+Info: Kontroluji netlist součástky pouzdro "R1:/5FCC5E82:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "R2:/5FCBEB54:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "R3:/5FCD059A:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "J6:/5FD0DE67:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "R5:/5FCF09E6:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "R6:/5FCE20C9:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "R7:/5FCE20A9:Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "SW1:/5FCEC459:Button_Switch_THT:SW_PUSH_6mm_H5mm".
+Info: Kontroluji netlist součástky pouzdro "U1:/5FC84075:Package_TO_SOT_THT:TO-220-3_Vertical".
+Info: Kontroluji netlist součástky pouzdro "U2:/5FCB0BF8:Package_DIP:SMDIP-4_W9.53mm".
+Info: Kontroluji netlist součástky pouzdro "U3:/5FCE2091:Package_DIP:SMDIP-4_W9.53mm".
+Info: Kontroluji netlist součástky pouzdro "J2:/5FC8D7ED:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "C1:/5FC837E1:Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "C2:/5FC87238:Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Kontroluji netlist součástky pouzdro "D1:/5FCB7C04:Diode_SMD:D_MELF".
+Info: Kontroluji netlist součástky pouzdro "D2:/5FCE2097:Diode_SMD:D_MELF".
+Info: Kontroluji netlist součástky pouzdro "DLed1:/5FCCEC90:LED_THT:LED_D3.0mm".
+Info: Kontroluji netlist součástky pouzdro "DLed2:/5FCD360E:LED_THT:LED_D3.0mm".
+Info: Kontroluji netlist součástky pouzdro "HC-SR4:/5FCA646F:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical".
+Info: Kontroluji netlist součástky pouzdro "J1:/5FC8C894:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "J3:/5FC9259C:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "J4:/5FC8D49A:TestPoint:TestPoint_Pad_D2.5mm".
+Info: Kontroluji netlist součástky pouzdro "J5:/5FD0CD16:TestPoint:TestPoint_Pad_D2.5mm".
+Měním pouzdro součástky J2 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J5 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J1 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J3 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J8 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J7 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J4 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
+Měním pouzdro součástky J6 z TerminalBlock_WAGO:TerminalBlock_WAGO_236-101_1x01_P5.00mm_45Degree na TestPoint:TestPoint_Pad_D2.5mm.
