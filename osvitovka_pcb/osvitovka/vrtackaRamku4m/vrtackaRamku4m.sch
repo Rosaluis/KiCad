@@ -127,17 +127,6 @@ F 3 "~" H 2050 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0108
-U 1 1 5FC95D7A
-P 9650 4400
-F 0 "#PWR0108" H 9650 4150 50  0001 C CNN
-F 1 "GND" H 9655 4227 50  0000 C CNN
-F 2 "" H 9650 4400 50  0001 C CNN
-F 3 "" H 9650 4400 50  0001 C CNN
-	1    9650 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0109
 U 1 1 5FC9650E
 P 9550 4400
@@ -202,9 +191,9 @@ Wire Wire Line
 	1150 3700 1400 3700
 Wire Wire Line
 	1400 3800 1150 3800
-Text GLabel 8500 2850 0    50   Input ~ 0
-Echo
 Text GLabel 8500 2750 0    50   Input ~ 0
+Echo
+Text GLabel 8500 2950 0    50   Input ~ 0
 Trig
 $Comp
 L Isolator:LTV-817S U2
@@ -609,8 +598,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 4050 9550 4400
 Wire Wire Line
-	9650 4050 9650 4400
-Wire Wire Line
 	9450 1600 9450 2050
 NoConn ~ 9750 2050
 NoConn ~ 9650 2050
@@ -618,12 +605,8 @@ NoConn ~ 10050 2550
 NoConn ~ 10050 2450
 Wire Wire Line
 	8500 3450 9050 3450
-Wire Wire Line
-	8500 2850 9050 2850
 NoConn ~ 9050 2450
 NoConn ~ 9050 2650
-NoConn ~ 9050 2950
-NoConn ~ 9050 3050
 NoConn ~ 9050 3150
 NoConn ~ 9050 3550
 NoConn ~ 9050 3650
@@ -637,4 +620,21 @@ NoConn ~ 10050 3250
 NoConn ~ 10050 3150
 NoConn ~ 10050 3050
 NoConn ~ 10050 2850
+Wire Wire Line
+	8500 2950 9050 2950
+NoConn ~ 9050 2850
+NoConn ~ 9650 4050
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCEB636
+P 8500 3050
+F 0 "#PWR?" H 8500 2900 50  0001 C CNN
+F 1 "+5V" H 8515 3223 50  0000 C CNN
+F 2 "" H 8500 3050 50  0001 C CNN
+F 3 "" H 8500 3050 50  0001 C CNN
+	1    8500 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 3050 9050 3050
 $EndSCHEMATC
