@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A1
-U 1 1 5FC8165F
-P 9550 3050
-F 0 "A1" H 9550 1961 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 9550 1870 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 9550 3050 50  0001 C CIN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 9550 3050 50  0001 C CNN
-	1    9550 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5FC837E1
 P 1000 2450
@@ -140,41 +129,36 @@ $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5FC95D7A
-P 9650 4200
-F 0 "#PWR0108" H 9650 3950 50  0001 C CNN
-F 1 "GND" H 9655 4027 50  0000 C CNN
-F 2 "" H 9650 4200 50  0001 C CNN
-F 3 "" H 9650 4200 50  0001 C CNN
-	1    9650 4200
+P 9650 4400
+F 0 "#PWR0108" H 9650 4150 50  0001 C CNN
+F 1 "GND" H 9655 4227 50  0000 C CNN
+F 2 "" H 9650 4400 50  0001 C CNN
+F 3 "" H 9650 4400 50  0001 C CNN
+	1    9650 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5FC9650E
-P 9550 4200
-F 0 "#PWR0109" H 9550 3950 50  0001 C CNN
-F 1 "GND" H 9555 4027 50  0000 C CNN
-F 2 "" H 9550 4200 50  0001 C CNN
-F 3 "" H 9550 4200 50  0001 C CNN
-	1    9550 4200
+P 9550 4400
+F 0 "#PWR0109" H 9550 4150 50  0001 C CNN
+F 1 "GND" H 9555 4227 50  0000 C CNN
+F 2 "" H 9550 4400 50  0001 C CNN
+F 3 "" H 9550 4400 50  0001 C CNN
+	1    9550 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0110
 U 1 1 5FC98089
-P 9450 1850
-F 0 "#PWR0110" H 9450 1700 50  0001 C CNN
-F 1 "+5V" H 9465 2023 50  0000 C CNN
-F 2 "" H 9450 1850 50  0001 C CNN
-F 3 "" H 9450 1850 50  0001 C CNN
-	1    9450 1850
+P 9450 1600
+F 0 "#PWR0110" H 9450 1450 50  0001 C CNN
+F 1 "+5V" H 9465 1773 50  0000 C CNN
+F 2 "" H 9450 1600 50  0001 C CNN
+F 3 "" H 9450 1600 50  0001 C CNN
+	1    9450 1600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9650 2050
-NoConn ~ 9750 2050
-NoConn ~ 10050 2450
-NoConn ~ 10050 2550
-NoConn ~ 10050 2850
 $Comp
 L Connector:Conn_01x04_Female HC-SR4
 U 1 1 5FCA646F
@@ -218,9 +202,9 @@ Wire Wire Line
 	1150 3700 1400 3700
 Wire Wire Line
 	1400 3800 1150 3800
-Text GLabel 8900 2950 0    50   Input ~ 0
+Text GLabel 8500 2850 0    50   Input ~ 0
 Echo
-Text GLabel 8900 2850 0    50   Input ~ 0
+Text GLabel 8500 2750 0    50   Input ~ 0
 Trig
 $Comp
 L Isolator:LTV-817S U2
@@ -338,12 +322,8 @@ Text GLabel 4200 2150 0    50   Input ~ 0
 PWM1
 Wire Wire Line
 	4200 2150 4500 2150
-Wire Wire Line
-	9050 2950 8900 2950
-Text GLabel 8900 2650 0    50   Input ~ 0
+Text GLabel 8500 2550 0    50   Input ~ 0
 PWM1
-Wire Wire Line
-	8900 2850 9050 2850
 Text Notes 3650 800  0    50   ~ 0
 https://navody.arduino-shop.cz/navody-k-produktum/meric-vzdalenosti-ultrazvukovy.html
 $Comp
@@ -449,14 +429,10 @@ Wire Wire Line
 	1400 5050 1600 5050
 Wire Wire Line
 	1900 5050 2100 5050
-Text GLabel 8900 3450 0    50   Input ~ 0
+Text GLabel 8500 3350 0    50   Input ~ 0
 Led_yellow
-Text GLabel 8900 3550 0    50   Input ~ 0
+Text GLabel 8500 3450 0    50   Input ~ 0
 Led_green
-Wire Wire Line
-	8900 3450 9050 3450
-Wire Wire Line
-	9050 3550 8900 3550
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5FCEC459
@@ -512,22 +488,8 @@ Wire Wire Line
 Connection ~ 2000 5550
 Wire Wire Line
 	2000 5550 2500 5550
-Text GLabel 8900 3350 0    50   Input ~ 0
+Text GLabel 8500 3250 0    50   Input ~ 0
 Btn1
-NoConn ~ 9050 2450
-NoConn ~ 9050 2550
-NoConn ~ 9050 3050
-NoConn ~ 9050 3150
-NoConn ~ 9050 3250
-NoConn ~ 9050 3750
-NoConn ~ 10050 3050
-NoConn ~ 10050 3150
-NoConn ~ 10050 3250
-NoConn ~ 10050 3350
-NoConn ~ 10050 3450
-NoConn ~ 10050 3550
-NoConn ~ 10050 3650
-NoConn ~ 10050 3750
 NoConn ~ 6350 2950
 Wire Wire Line
 	1250 3600 1400 3600
@@ -553,8 +515,6 @@ F 3 "~" H 6800 2100 50  0001 C CNN
 	1    6800 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 2650 9050 2650
 $Comp
 L power:+12V #PWR0105
 U 1 1 5FCF4A8C
@@ -627,14 +587,54 @@ Wire Wire Line
 	5700 1600 5700 2150
 Wire Wire Line
 	1500 2700 1500 2900
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5FC8165F
+P 9550 3050
+F 0 "A1" H 9550 1961 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 9550 1870 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 9550 3050 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 9550 3050 50  0001 C CNN
+	1    9550 3050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9650 4050 9650 4200
+	8500 2550 9050 2550
 Wire Wire Line
-	9550 4050 9550 4200
+	8500 2750 9050 2750
 Wire Wire Line
-	9450 1850 9450 2050
-NoConn ~ 9050 2750
+	8500 3250 9050 3250
 Wire Wire Line
-	8900 3350 9050 3350
+	8500 3350 9050 3350
+Wire Wire Line
+	9550 4050 9550 4400
+Wire Wire Line
+	9650 4050 9650 4400
+Wire Wire Line
+	9450 1600 9450 2050
+NoConn ~ 9750 2050
+NoConn ~ 9650 2050
+NoConn ~ 10050 2550
+NoConn ~ 10050 2450
+Wire Wire Line
+	8500 3450 9050 3450
+Wire Wire Line
+	8500 2850 9050 2850
+NoConn ~ 9050 2450
+NoConn ~ 9050 2650
+NoConn ~ 9050 2950
+NoConn ~ 9050 3050
+NoConn ~ 9050 3150
+NoConn ~ 9050 3550
 NoConn ~ 9050 3650
+NoConn ~ 9050 3750
+NoConn ~ 10050 3750
+NoConn ~ 10050 3650
+NoConn ~ 10050 3550
+NoConn ~ 10050 3450
+NoConn ~ 10050 3350
+NoConn ~ 10050 3250
+NoConn ~ 10050 3150
+NoConn ~ 10050 3050
+NoConn ~ 10050 2850
 $EndSCHEMATC
