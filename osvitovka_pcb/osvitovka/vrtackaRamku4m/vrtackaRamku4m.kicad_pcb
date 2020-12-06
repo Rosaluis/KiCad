@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 14)
     (tracks 123)
     (zones 0)
     (modules 24)
@@ -1069,6 +1069,12 @@
     )
   )
 
+  (target plus (at 173.99 48.26) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5FCD1523))
+  (target plus (at 107.95 48.26) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5FCD1521))
+  (target plus (at 173.99 124.46) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5FCD1520))
+  (target plus (at 107.95 124.46) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5FCD151F))
+  (target plus (at 96.52 124.46) (size 5) (width 0.05) (layer Edge.Cuts) (tstamp 5FCD151E))
+  (target plus (at 185.42 48.26) (size 5) (width 0.05) (layer Edge.Cuts))
   (gr_text GND (at 165.1 49.53 90) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -1218,7 +1224,7 @@
   (segment (start 138.43 73.66) (end 139.7 74.93) (width 0.635) (layer F.Cu) (net 31))
   (segment (start 139.7 74.93) (end 139.7 75.1475) (width 0.635) (layer F.Cu) (net 31))
 
-  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 5FCD1517) (hatch edge 0.508)
     (connect_pads (clearance 2))
     (min_thickness 0.4)
     (fill yes (arc_segments 32) (thermal_gap 0.5) (thermal_bridge_width 0.5))
