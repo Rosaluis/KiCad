@@ -212,7 +212,7 @@ U 1 1 5FCC5E82
 P 5350 2600
 F 0 "R1" V 5143 2600 50  0000 C CNN
 F 1 "4k7" V 5234 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5280 2600 50  0001 C CNN
 F 3 "~" H 5350 2600 50  0001 C CNN
 	1    5350 2600
 	0    1    1    0   
@@ -242,7 +242,7 @@ U 1 1 5FCD059A
 P 1750 4600
 F 0 "R3" V 1543 4600 50  0000 C CNN
 F 1 "470" V 1634 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1680 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1680 4600 50  0001 C CNN
 F 3 "~" H 1750 4600 50  0001 C CNN
 	1    1750 4600
 	0    1    1    0   
@@ -260,15 +260,13 @@ F 3 "" H 2600 4600 50  0001 C CNN
 $EndComp
 Text GLabel 1400 4600 0    50   Input ~ 0
 Led_yellow
-Text GLabel 1400 5050 0    50   Input ~ 0
-Led_green
 $Comp
 L Device:R R4
 U 1 1 5FCD3330
 P 1750 5050
 F 0 "R4" V 1543 5050 50  0000 C CNN
 F 1 "470" V 1634 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1680 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1680 5050 50  0001 C CNN
 F 3 "~" H 1750 5050 50  0001 C CNN
 	1    1750 5050
 	0    1    1    0   
@@ -305,8 +303,6 @@ Wire Wire Line
 	1900 5050 2100 5050
 Text GLabel 8500 3350 0    50   Input ~ 0
 Led_yellow
-Text GLabel 8500 3450 0    50   Input ~ 0
-Led_green
 Wire Wire Line
 	1250 3600 1400 3600
 $Comp
@@ -414,8 +410,6 @@ NoConn ~ 9750 2050
 NoConn ~ 9650 2050
 NoConn ~ 10050 2550
 NoConn ~ 10050 2450
-Wire Wire Line
-	8500 3450 9050 3450
 NoConn ~ 9050 2450
 NoConn ~ 9050 2650
 NoConn ~ 9050 3550
@@ -512,7 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2850 7000 3050
 Wire Wire Line
-	6100 2200 6100 2400
+	6100 2200 6100 2300
 $Comp
 L power:+12V #PWR03
 U 1 1 5FD8968E
@@ -525,7 +519,7 @@ F 3 "" H 6100 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 1450 6100 1600
+	6100 1450 6100 1550
 $Comp
 L power:GND #PWR011
 U 1 1 5FD8A380
@@ -545,7 +539,7 @@ U 1 1 5FD8CC29
 P 5650 2800
 F 0 "R2" V 5443 2800 50  0000 C CNN
 F 1 "10k" V 5534 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5580 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 2800 50  0001 C CNN
 F 3 "~" H 5650 2800 50  0001 C CNN
 	1    5650 2800
 	-1   0    0    1   
@@ -561,4 +555,79 @@ Wire Wire Line
 	5650 2950 5650 3050
 NoConn ~ 6400 2200
 NoConn ~ 6800 2200
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FD664D9
+P 1000 5500
+F 0 "H1" H 1100 5546 50  0000 L CNN
+F 1 "MountingHole" H 1100 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1000 5500 50  0001 C CNN
+F 3 "~" H 1000 5500 50  0001 C CNN
+	1    1000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FD66F45
+P 1000 5700
+F 0 "H2" H 1100 5746 50  0000 L CNN
+F 1 "MountingHole" H 1100 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1000 5700 50  0001 C CNN
+F 3 "~" H 1000 5700 50  0001 C CNN
+	1    1000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5FD94B8B
+P 7000 2650
+F 0 "D2" V 6954 2729 50  0000 L CNN
+F 1 "D" V 7045 2729 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 7000 2650 50  0001 C CNN
+F 3 "~" H 7000 2650 50  0001 C CNN
+	1    7000 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5FD95C5D
+P 5700 1900
+F 0 "D1" H 5700 2116 50  0000 C CNN
+F 1 "D" H 5700 2025 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 5700 1900 50  0001 C CNN
+F 3 "~" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1750 5700 1550
+Wire Wire Line
+	5700 1550 6100 1550
+Connection ~ 6100 1550
+Wire Wire Line
+	6100 1550 6100 1600
+Wire Wire Line
+	5700 2050 5700 2300
+Wire Wire Line
+	5700 2300 6100 2300
+Connection ~ 6100 2300
+Wire Wire Line
+	6100 2300 6100 2400
+Wire Wire Line
+	7000 2800 7000 2850
+Connection ~ 7000 2850
+Wire Wire Line
+	7000 2500 7000 2450
+$Comp
+L power:+5V #PWR?
+U 1 1 5FDA6872
+P 1400 5050
+F 0 "#PWR?" H 1400 4900 50  0001 C CNN
+F 1 "+5V" V 1415 5178 50  0000 L CNN
+F 2 "" H 1400 5050 50  0001 C CNN
+F 3 "" H 1400 5050 50  0001 C CNN
+	1    1400 5050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 9050 3450
 $EndSCHEMATC
