@@ -260,8 +260,6 @@ F 3 "" H 2600 4600 50  0001 C CNN
 $EndComp
 Text GLabel 1400 4600 0    50   Input ~ 0
 Led_yellow
-Text GLabel 1400 5050 0    50   Input ~ 0
-Led_green
 $Comp
 L Device:R R4
 U 1 1 5FCD3330
@@ -305,8 +303,6 @@ Wire Wire Line
 	1900 5050 2100 5050
 Text GLabel 8500 3350 0    50   Input ~ 0
 Led_yellow
-Text GLabel 8500 3450 0    50   Input ~ 0
-Led_green
 Wire Wire Line
 	1250 3600 1400 3600
 $Comp
@@ -414,8 +410,6 @@ NoConn ~ 9750 2050
 NoConn ~ 9650 2050
 NoConn ~ 10050 2550
 NoConn ~ 10050 2450
-Wire Wire Line
-	8500 3450 9050 3450
 NoConn ~ 9050 2450
 NoConn ~ 9050 2650
 NoConn ~ 9050 3550
@@ -456,7 +450,7 @@ U 1 1 5FD72A40
 P 6500 1900
 F 0 "K1" H 7130 1946 50  0000 L CNN
 F 1 "RSM822" H 7130 1855 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Finder_40.52" H 7850 1870 50  0001 C CNN
+F 2 "Relay_THT:Relay_DPDT_Finder_30.22" H 7850 1870 50  0001 C CNN
 F 3 "http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf" H 6500 1900 50  0001 C CNN
 	1    6500 1900
 	1    0    0    1   
@@ -624,4 +618,16 @@ Wire Wire Line
 Connection ~ 7000 2850
 Wire Wire Line
 	7000 2500 7000 2450
+$Comp
+L power:+5V #PWR0101
+U 1 1 5FDA6872
+P 1400 5050
+F 0 "#PWR0101" H 1400 4900 50  0001 C CNN
+F 1 "+5V" V 1415 5178 50  0000 L CNN
+F 2 "" H 1400 5050 50  0001 C CNN
+F 3 "" H 1400 5050 50  0001 C CNN
+	1    1400 5050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 9050 3450
 $EndSCHEMATC
