@@ -91,17 +91,6 @@ F 3 "~" H 3050 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW2
-U 1 1 5FD01299
-P 3750 4300
-F 0 "SW2" V 3796 4252 50  0000 R CNN
-F 1 "Stop" V 3705 4252 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8mm" H 3750 4500 50  0001 C CNN
-F 3 "~" H 3750 4500 50  0001 C CNN
-	1    3750 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5FD01970
 P 6300 3350
@@ -220,20 +209,12 @@ Wire Wire Line
 	3050 3350 3050 4100
 Wire Wire Line
 	3050 2000 3750 2000
-Wire Wire Line
-	3050 4750 3750 4750
 Connection ~ 5600 4750
 Wire Wire Line
 	3750 2550 3750 2000
 Connection ~ 3750 2000
 Wire Wire Line
 	3750 2850 3750 3750
-Wire Wire Line
-	3750 4500 3750 4750
-Connection ~ 3750 4750
-Connection ~ 3750 3750
-Wire Wire Line
-	3750 3750 3750 4100
 Wire Wire Line
 	4950 3150 4950 2000
 Wire Wire Line
@@ -324,8 +305,6 @@ Wire Wire Line
 Connection ~ 2100 2100
 Wire Wire Line
 	2100 2100 2300 2100
-Wire Wire Line
-	3750 4750 4350 4750
 Connection ~ 4350 4750
 Wire Wire Line
 	3750 3750 4450 3750
@@ -842,4 +821,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 3050 5600 3550
 Connection ~ 5600 3550
+Wire Wire Line
+	3050 4750 4350 4750
 $EndSCHEMATC
