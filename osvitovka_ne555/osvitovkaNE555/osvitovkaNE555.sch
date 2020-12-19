@@ -58,17 +58,6 @@ F 3 "~" H 6700 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC337 Q1
-U 1 1 5FCFC78D
-P 7200 3350
-F 0 "Q1" H 7391 3396 50  0000 L CNN
-F 1 "BC337" H 7391 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 3275 50  0001 L CIN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 7200 3350 50  0001 L CNN
-	1    7200 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C2
 U 1 1 5FCFFA66
 P 5600 4350
@@ -823,4 +812,15 @@ Wire Wire Line
 Connection ~ 5600 3550
 Wire Wire Line
 	3050 4750 4350 4750
+$Comp
+L Transistor_BJT:BC817 Q1
+U 1 1 5FDE9E5B
+P 7200 3350
+F 0 "Q1" H 7391 3396 50  0000 L CNN
+F 1 "BC817" H 7391 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7400 3275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 7200 3350 50  0001 L CNN
+	1    7200 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
