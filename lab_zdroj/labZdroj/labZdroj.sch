@@ -485,13 +485,13 @@ Connection ~ 4150 3050
 $Comp
 L Connector:Conn_01x02_Male J_D7
 U 1 1 5FE686C6
-P 4500 3650
-F 0 "J_D7" H 4472 3532 50  0000 R CNN
-F 1 "green_LED" H 4472 3623 50  0000 R CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 4500 3650 50  0001 C CNN
-F 3 "~" H 4500 3650 50  0001 C CNN
-	1    4500 3650
-	-1   0    0    -1  
+P 4500 3750
+F 0 "J_D7" H 4472 3632 50  0000 R CNN
+F 1 "green_LED" H 4472 3723 50  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4150 3500 4150 3650
@@ -525,7 +525,7 @@ F 1 "1k" V 5653 2462 50  0000 R CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 5500 2650 50  0001 C CNN
 F 3 "~" H 5500 2650 50  0001 C CNN
 	1    5500 2650
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Transistor_BJT:BC327 T1
@@ -533,7 +533,7 @@ U 1 1 5FE7A5F3
 P 5600 3350
 F 0 "T1" H 5791 3304 50  0000 L CNN
 F 1 "BC327" H 5791 3395 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5800 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 5800 3275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF" H 5600 3350 50  0001 L CNN
 	1    5600 3350
 	-1   0    0    1   
@@ -576,7 +576,7 @@ U 1 1 5FE97604
 P 6750 3550
 F 0 "T2" H 6941 3596 50  0000 L CNN
 F 1 "BC547" H 6941 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6950 3475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 6950 3475 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6750 3550 50  0001 L CNN
 	1    6750 3550
 	1    0    0    -1  
@@ -617,7 +617,7 @@ U 1 1 5FEAD965
 P 7850 3550
 F 0 "T3" H 8041 3596 50  0000 L CNN
 F 1 "BC547" H 8041 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8050 3475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 8050 3475 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7850 3550 50  0001 L CNN
 	1    7850 3550
 	1    0    0    -1  
@@ -659,13 +659,13 @@ Connection ~ 8400 2550
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5FEEC448
-P 9800 2650
-F 0 "J2" H 9880 2642 50  0000 L CNN
-F 1 "0-30V ss" H 9880 2551 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 9800 2650 50  0001 C CNN
-F 3 "~" H 9800 2650 50  0001 C CNN
-	1    9800 2650
-	1    0    0    1   
+P 9800 2550
+F 0 "J2" H 9880 2542 50  0000 L CNN
+F 1 "0-30V ss" H 9880 2451 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 9800 2550 50  0001 C CNN
+F 3 "~" H 9800 2550 50  0001 C CNN
+	1    9800 2550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 2550 9150 2550
@@ -736,7 +736,7 @@ F 1 "100k" H 9122 3533 50  0000 R CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 9150 3600 50  0001 C CNN
 F 3 "~" H 9150 3600 50  0001 C CNN
 	1    9150 3600
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J_R13
@@ -747,7 +747,7 @@ F 1 "5k" H 9122 3933 50  0000 R CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical" H 9150 4000 50  0001 C CNN
 F 3 "~" H 9150 4000 50  0001 C CNN
 	1    9150 4000
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8800 3300 8800 3500
