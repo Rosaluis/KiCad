@@ -14,22 +14,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J1
 U 1 1 5FFE060D
 P 1350 1600
-F 0 "J?" H 1268 1817 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1268 1726 50  0000 C CNN
+F 0 "J1" H 1268 1817 50  0000 C CNN
+F 1 "hroty" H 1268 1726 50  0000 C CNN
 F 2 "" H 1350 1600 50  0001 C CNN
 F 3 "~" H 1350 1600 50  0001 C CNN
 	1    1350 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J2
 U 1 1 5FFE282F
 P 4050 3200
-F 0 "J?" H 4130 3192 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 4130 3101 50  0000 L CNN
+F 0 "J2" H 4130 3192 50  0000 L CNN
+F 1 "vypinac" H 4130 3101 50  0000 L CNN
 F 2 "" H 4050 3200 50  0001 C CNN
 F 3 "~" H 4050 3200 50  0001 C CNN
 	1    4050 3200
@@ -146,18 +146,16 @@ F 3 "~" V 3975 2350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5FFEBE3C
 P 2700 2950
-F 0 "C?" V 2448 2950 50  0000 C CNN
+F 0 "C1" V 2448 2950 50  0000 C CNN
 F 1 "C" V 2539 2950 50  0000 C CNN
 F 2 "" H 2738 2800 50  0001 C CNN
 F 3 "~" H 2700 2950 50  0001 C CNN
 	1    2700 2950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1550 1600 2250 1600
 Wire Wire Line
 	3900 1600 3900 2150
 Wire Wire Line
@@ -175,8 +173,6 @@ Wire Wire Line
 Connection ~ 3150 1600
 Wire Wire Line
 	3150 1600 3650 1600
-Wire Wire Line
-	1550 1700 1800 1700
 Wire Wire Line
 	1800 1700 1800 2150
 Wire Wire Line
@@ -233,8 +229,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 3900 3650 3900
 Wire Wire Line
-	3650 3900 3650 3300
-Wire Wire Line
 	3650 3300 3850 3300
 Connection ~ 3150 3900
 Wire Wire Line
@@ -244,4 +238,52 @@ Wire Wire Line
 Connection ~ 3650 2950
 Wire Wire Line
 	3650 2950 3650 3200
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5FFFAA1F
+P 4050 3500
+F 0 "J3" H 4130 3492 50  0000 L CNN
+F 1 "9V= 1+ / 2-" H 4130 3401 50  0000 L CNN
+F 2 "" H 4050 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3300 3650 3500
+Wire Wire Line
+	3650 3500 3850 3500
+Wire Wire Line
+	3850 3600 3650 3600
+Wire Wire Line
+	3650 3600 3650 3900
+Wire Wire Line
+	1550 1600 1600 1600
+Wire Wire Line
+	1550 1700 1650 1700
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60001C4D
+P 1350 2100
+F 0 "SW1" V 1396 2052 50  0000 R CNN
+F 1 "test tlacitko" V 1305 2052 50  0000 R CNN
+F 2 "" H 1350 2300 50  0001 C CNN
+F 3 "~" H 1350 2300 50  0001 C CNN
+	1    1350 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 1900 1600 1900
+Wire Wire Line
+	1600 1900 1600 1600
+Connection ~ 1600 1600
+Wire Wire Line
+	1600 1600 2250 1600
+Wire Wire Line
+	1350 2300 1650 2300
+Wire Wire Line
+	1650 2300 1650 1700
+Connection ~ 1650 1700
+Wire Wire Line
+	1650 1700 1800 1700
 $EndSCHEMATC
