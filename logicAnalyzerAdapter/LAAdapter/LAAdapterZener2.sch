@@ -25,7 +25,7 @@ F 3 "~" H 2950 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2900 3050 2750 3050
+	2900 3050 2800 3050
 $Comp
 L Device:D_Zener D5
 U 1 1 6050E955
@@ -183,7 +183,7 @@ F 3 "~" H 4350 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 1900 4350 2000
+	4350 1900 4350 1950
 $Comp
 L Device:D_Zener D3
 U 1 1 6057DBA8
@@ -207,7 +207,7 @@ F 3 "~" H 4550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 2750 4550 2850
+	4550 2750 4550 2800
 $Comp
 L Device:D_Zener D4
 U 1 1 6057E641
@@ -231,7 +231,7 @@ F 3 "~" H 4850 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 3600 4850 3700
+	4850 3600 4850 3650
 Wire Wire Line
 	4200 750  4200 650 
 Wire Wire Line
@@ -303,8 +303,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 1500 3700 2350
 Wire Wire Line
-	3700 3050 3400 3050
-Wire Wire Line
 	5000 1450 5000 1500
 Wire Wire Line
 	5000 1500 4200 1500
@@ -315,8 +313,6 @@ Wire Wire Line
 	5200 2350 4350 2350
 Connection ~ 3700 2350
 Wire Wire Line
-	3700 2350 3700 3050
-Wire Wire Line
 	4350 2300 4350 2350
 Connection ~ 4350 2350
 Wire Wire Line
@@ -325,9 +321,6 @@ Wire Wire Line
 	5450 3150 5450 3200
 Wire Wire Line
 	5450 3200 4550 3200
-Wire Wire Line
-	3700 3200 3700 3050
-Connection ~ 3700 3050
 Wire Wire Line
 	4550 3150 4550 3200
 Connection ~ 4550 3200
@@ -338,11 +331,127 @@ Wire Wire Line
 Wire Wire Line
 	5700 4050 4850 4050
 Wire Wire Line
-	3700 4050 3700 3200
+	3700 4050 3700 3250
 Connection ~ 3700 3200
 Wire Wire Line
 	4850 4000 4850 4050
 Connection ~ 4850 4050
 Wire Wire Line
 	4850 4050 3700 4050
+Wire Wire Line
+	5700 3700 6050 3700
+Wire Wire Line
+	6050 3700 6050 4150
+Wire Wire Line
+	6050 4150 3650 4150
+Wire Wire Line
+	3650 4150 3650 3450
+Wire Wire Line
+	3650 3450 3400 3450
+Connection ~ 5700 3700
+Wire Wire Line
+	3700 2350 3700 2700
+Wire Wire Line
+	3400 3250 3700 3250
+Connection ~ 3700 3250
+Wire Wire Line
+	3700 3250 3700 3200
+Wire Wire Line
+	4850 3650 2700 3650
+Wire Wire Line
+	2700 3650 2700 3250
+Wire Wire Line
+	2700 3250 2900 3250
+Connection ~ 4850 3650
+Wire Wire Line
+	4850 3650 4850 3700
+Wire Wire Line
+	5450 2850 6300 2850
+Wire Wire Line
+	6300 2850 6300 4250
+Wire Wire Line
+	6300 4250 2800 4250
+Wire Wire Line
+	2800 4250 2800 3450
+Wire Wire Line
+	2800 3450 2900 3450
+Connection ~ 5450 2850
+Wire Wire Line
+	4550 2800 3550 2800
+Wire Wire Line
+	3550 2800 3550 3150
+Wire Wire Line
+	3550 3150 3400 3150
+Connection ~ 4550 2800
+Wire Wire Line
+	4550 2800 4550 2850
+Wire Wire Line
+	5200 2000 6550 2000
+Wire Wire Line
+	6550 2000 6550 4500
+Wire Wire Line
+	6550 4500 3550 4500
+Wire Wire Line
+	3550 4500 3550 3350
+Wire Wire Line
+	3550 3350 3400 3350
+Connection ~ 5200 2000
+Wire Wire Line
+	4350 1950 2300 1950
+Wire Wire Line
+	2300 1950 2300 3150
+Wire Wire Line
+	2300 3150 2900 3150
+Connection ~ 4350 1950
+Wire Wire Line
+	4350 1950 4350 2000
+Wire Wire Line
+	5000 1150 5450 1150
+Wire Wire Line
+	5450 1150 5450 1800
+Wire Wire Line
+	5450 1800 6800 1800
+Wire Wire Line
+	6800 1800 6800 4950
+Wire Wire Line
+	6800 4950 2500 4950
+Wire Wire Line
+	2500 4950 2500 3350
+Wire Wire Line
+	2500 3350 2900 3350
+Connection ~ 5000 1150
+Wire Wire Line
+	3400 3050 3450 3050
+Wire Wire Line
+	3450 1150 4200 1150
+Connection ~ 4200 1150
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 6058FD8E
+P 3200 2400
+F 0 "J3" V 3262 2444 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 3353 2444 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3200 2400 50  0001 C CNN
+F 3 "~" H 3200 2400 50  0001 C CNN
+	1    3200 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 3050 2800 2700
+Wire Wire Line
+	2800 2700 3100 2700
+Wire Wire Line
+	3100 2700 3100 2600
+Connection ~ 2800 3050
+Wire Wire Line
+	2800 3050 2750 3050
+Wire Wire Line
+	3200 2600 3200 2700
+Wire Wire Line
+	3450 1150 3450 3050
+Wire Wire Line
+	3200 2700 3700 2700
+Connection ~ 3700 2700
+Wire Wire Line
+	3700 2700 3700 3200
 $EndSCHEMATC

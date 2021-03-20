@@ -1,4 +1,4 @@
-19059928474612469
+19119704171578795
 AR_Library
 AR_AMASS_4mm_Horizontal
 Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
@@ -49,6 +49,13 @@ LED diameter 3.0mm 2 pins
 2
 2
 AR_Library
+AR_LED_D3.0mm_2
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+AR_Library
 AR_PinHeader_1x01_P2.54mm_Vertical
 Through hole straight pin header, 1x01, 2.54mm pitch, single row
 Through hole pin header THT 1x01 2.54mm single row
@@ -77,6 +84,13 @@ Through hole pin header THT 1x08 2.54mm single row
 8
 8
 AR_Library
+AR_PinHeader_1x09_P2.54mm_Vertical
+Through hole straight pin header, 1x09, 2.54mm pitch, single row
+Through hole pin header THT 1x09 2.54mm single row
+0
+9
+9
+AR_Library
 AR_PinHeader_1x15_P2.54mm_Vertical
 Through hole straight pin header, 1x15, 2.54mm pitch, single row
 Through hole pin header THT 1x15 2.54mm single row
@@ -92,6 +106,13 @@ Through hole pin header THT 2x02 2.54mm double row
 4
 AR_Library
 AR_PinHeader_2x05_P2.54mm_Horizontal
+Through hole angled pin header, 2x05, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x05 2.54mm double row
+0
+10
+10
+AR_Library
+AR_PinHeader_2x05_P2.54mm_Horizontal_2
 Through hole angled pin header, 2x05, 2.54mm pitch, 6mm pin length, double rows
 Through hole angled pin header THT 2x05 2.54mm double row
 0

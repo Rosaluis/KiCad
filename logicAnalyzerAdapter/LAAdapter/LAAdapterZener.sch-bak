@@ -29,30 +29,30 @@ Wire Wire Line
 $Comp
 L Device:D_Zener D1
 U 1 1 6050E955
-P 5050 4200
-F 0 "D1" V 5004 4280 50  0000 L CNN
-F 1 "4,7V" V 5095 4280 50  0000 L CNN
-F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 5050 4200 50  0001 C CNN
-F 3 "~" H 5050 4200 50  0001 C CNN
-	1    5050 4200
+P 5000 1300
+F 0 "D1" V 4954 1380 50  0000 L CNN
+F 1 "4,7V" V 5045 1380 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 5000 1300 50  0001 C CNN
+F 3 "~" H 5000 1300 50  0001 C CNN
+	1    5000 1300
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 6050F325
-P 5050 3700
-F 0 "R1" H 5120 3746 50  0000 L CNN
-F 1 "10k" H 5120 3655 50  0000 L CNN
-F 2 "AR_Library:AR_R_0805_2012Metric" V 4980 3700 50  0001 C CNN
-F 3 "~" H 5050 3700 50  0001 C CNN
-	1    5050 3700
+P 5000 950
+F 0 "R1" H 5070 996 50  0000 L CNN
+F 1 "10k" H 5070 905 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 4930 950 50  0001 C CNN
+F 3 "~" H 5000 950 50  0001 C CNN
+	1    5000 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J5
+L Connector_Generic:Conn_02x05_Odd_Even J4
 U 1 1 60510CB1
 P 3100 3250
-F 0 "J5" H 3150 3667 50  0000 C CNN
+F 0 "J4" H 3150 3667 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 3150 3576 50  0000 C CNN
 F 2 "AR_Library:AR_PinHeader_2x05_P2.54mm_Horizontal" H 3100 3250 50  0001 C CNN
 F 3 "~" H 3100 3250 50  0001 C CNN
@@ -60,196 +60,289 @@ F 3 "~" H 3100 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J10
-U 1 1 6051A2D4
-P 7150 3350
-F 0 "J10" H 7178 3376 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7178 3285 50  0000 L CNN
-F 2 "AR_Library:AR_AMASS_4mm_Horizontal" H 7150 3350 50  0001 C CNN
-F 3 "~" H 7150 3350 50  0001 C CNN
-	1    7150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 6051AB13
-P 7150 2950
-F 0 "J9" H 7178 2976 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7178 2885 50  0000 L CNN
-F 2 "AR_Library:AR_AMASS_4mm_Horizontal" H 7150 2950 50  0001 C CNN
-F 3 "~" H 7150 2950 50  0001 C CNN
-	1    7150 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 2950 5050 2950
-Wire Wire Line
-	5050 2950 5050 3550
-Wire Wire Line
-	5350 3350 5350 4500
-Wire Wire Line
-	5350 4500 5050 4500
-Wire Wire Line
-	5050 4350 5050 4500
-Wire Wire Line
-	5350 3350 6950 3350
-Wire Wire Line
-	4750 3050 4750 4500
-Wire Wire Line
-	4750 4500 5050 4500
-Wire Wire Line
-	3400 3050 4750 3050
-Connection ~ 5050 4500
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 60531B24
-P 850 3150
-F 0 "J1" H 958 3331 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 958 3240 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 850 3150 50  0001 C CNN
-F 3 "~" H 850 3150 50  0001 C CNN
-	1    850  3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 3850 5050 3950
-Connection ~ 5050 3950
-Wire Wire Line
-	5050 3950 5050 4050
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 60534A19
-P 1200 3250
-F 0 "J2" H 1308 3431 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1308 3340 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1200 3250 50  0001 C CNN
-F 3 "~" H 1200 3250 50  0001 C CNN
-	1    1200 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 605352E5
-P 1550 3350
-F 0 "J3" H 1658 3531 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1658 3440 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1550 3350 50  0001 C CNN
-F 3 "~" H 1550 3350 50  0001 C CNN
-	1    1550 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 605396F3
-P 1950 3450
-F 0 "J4" H 2058 3631 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 2058 3540 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1950 3450 50  0001 C CNN
-F 3 "~" H 1950 3450 50  0001 C CNN
-	1    1950 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 3450 2900 3450
-Wire Wire Line
-	1750 3350 2900 3350
-Wire Wire Line
-	1400 3250 2900 3250
-Wire Wire Line
-	1050 3150 2900 3150
-Wire Wire Line
-	1050 3250 1100 3250
-Wire Wire Line
-	1100 3250 1100 4500
-Wire Wire Line
-	1400 3350 1450 3350
-Wire Wire Line
-	1450 3350 1450 4500
-Wire Wire Line
-	1100 4500 1450 4500
-Connection ~ 1450 4500
-Wire Wire Line
-	1450 4500 1800 4500
-Wire Wire Line
-	1750 3450 1800 3450
-Wire Wire Line
-	1800 3450 1800 4500
-Connection ~ 1800 4500
-Wire Wire Line
-	1800 4500 2200 4500
-Wire Wire Line
-	2150 3550 2200 3550
-Wire Wire Line
-	2200 3550 2200 4500
-Connection ~ 2200 4500
-Wire Wire Line
-	2200 4500 3600 4500
-Wire Wire Line
-	3400 3450 3450 3450
-Wire Wire Line
-	3450 3450 3450 3950
-Wire Wire Line
-	3450 3950 4350 3950
-$Comp
-L Connector:Conn_01x02_Male J8
-U 1 1 6053DACB
-P 4600 3250
-F 0 "J8" H 4708 3431 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4708 3340 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4600 3250 50  0001 C CNN
-F 3 "~" H 4600 3250 50  0001 C CNN
-	1    4600 3250
+L Connector:Conn_01x08_Male J?
+U 1 1 60567C11
+P 6750 1050
+F 0 "J?" H 6722 932 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6722 1023 50  0000 R CNN
+F 2 "" H 6750 1050 50  0001 C CNN
+F 3 "~" H 6750 1050 50  0001 C CNN
+	1    6750 1050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J7
-U 1 1 6053E92D
-P 4200 3350
-F 0 "J7" H 4308 3531 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4308 3440 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 3350 50  0001 C CNN
-F 3 "~" H 4200 3350 50  0001 C CNN
-	1    4200 3350
-	-1   0    0    1   
+L Device:D_Zener D?
+U 1 1 6057A590
+P 5200 2150
+F 0 "D?" V 5154 2230 50  0000 L CNN
+F 1 "4,7V" V 5245 2230 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 5200 2150 50  0001 C CNN
+F 3 "~" H 5200 2150 50  0001 C CNN
+	1    5200 2150
+	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J6
-U 1 1 6053F0C1
-P 3850 3450
-F 0 "J6" H 3958 3631 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 3958 3540 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3850 3450 50  0001 C CNN
-F 3 "~" H 3850 3450 50  0001 C CNN
-	1    3850 3450
-	-1   0    0    1   
+L Device:R R?
+U 1 1 6057A596
+P 5200 1800
+F 0 "R?" H 5270 1846 50  0000 L CNN
+F 1 "10k" H 5270 1755 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 5130 1800 50  0001 C CNN
+F 3 "~" H 5200 1800 50  0001 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 6057AF2E
+P 5450 3000
+F 0 "D?" V 5404 3080 50  0000 L CNN
+F 1 "4,7V" V 5495 3080 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 5450 3000 50  0001 C CNN
+F 3 "~" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6057AF34
+P 5450 2650
+F 0 "R?" H 5520 2696 50  0000 L CNN
+F 1 "10k" H 5520 2605 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 5380 2650 50  0001 C CNN
+F 3 "~" H 5450 2650 50  0001 C CNN
+	1    5450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 6057BC96
+P 5700 3850
+F 0 "D?" V 5654 3930 50  0000 L CNN
+F 1 "4,7V" V 5745 3930 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 5700 3850 50  0001 C CNN
+F 3 "~" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6057BC9C
+P 5700 3500
+F 0 "R?" H 5770 3546 50  0000 L CNN
+F 1 "10k" H 5770 3455 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 5630 3500 50  0001 C CNN
+F 3 "~" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 6057C642
+P 4200 1300
+F 0 "D?" V 4154 1380 50  0000 L CNN
+F 1 "4,7V" V 4245 1380 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 4200 1300 50  0001 C CNN
+F 3 "~" H 4200 1300 50  0001 C CNN
+	1    4200 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6057C648
+P 4200 900
+F 0 "R?" H 4270 946 50  0000 L CNN
+F 1 "10k" H 4270 855 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 4130 900 50  0001 C CNN
+F 3 "~" H 4200 900 50  0001 C CNN
+	1    4200 900 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 3350 3650 3350
+	4200 1050 4200 1150
+$Comp
+L Device:D_Zener D?
+U 1 1 6057CB1F
+P 4350 2150
+F 0 "D?" V 4304 2230 50  0000 L CNN
+F 1 "4,7V" V 4395 2230 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 4350 2150 50  0001 C CNN
+F 3 "~" H 4350 2150 50  0001 C CNN
+	1    4350 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6057CB25
+P 4350 1750
+F 0 "R?" H 4420 1796 50  0000 L CNN
+F 1 "10k" H 4420 1705 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 4280 1750 50  0001 C CNN
+F 3 "~" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3400 3250 4000 3250
+	4350 1900 4350 2000
+$Comp
+L Device:D_Zener D?
+U 1 1 6057DBA8
+P 4550 3000
+F 0 "D?" V 4504 3080 50  0000 L CNN
+F 1 "4,7V" V 4595 3080 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 4550 3000 50  0001 C CNN
+F 3 "~" H 4550 3000 50  0001 C CNN
+	1    4550 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6057DBAE
+P 4550 2600
+F 0 "R?" H 4620 2646 50  0000 L CNN
+F 1 "10k" H 4620 2555 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 4480 2600 50  0001 C CNN
+F 3 "~" H 4550 2600 50  0001 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3400 3150 4400 3150
+	4550 2750 4550 2850
+$Comp
+L Device:D_Zener D?
+U 1 1 6057E641
+P 4850 3850
+F 0 "D?" V 4804 3930 50  0000 L CNN
+F 1 "4,7V" V 4895 3930 50  0000 L CNN
+F 2 "AR_Library:AR_D_DO-34_SOD68_P7.62mm_Horizontal" H 4850 3850 50  0001 C CNN
+F 3 "~" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6057E647
+P 4850 3450
+F 0 "R?" H 4920 3496 50  0000 L CNN
+F 1 "10k" H 4920 3405 50  0000 L CNN
+F 2 "AR_Library:AR_R_0805_2012Metric" V 4780 3450 50  0001 C CNN
+F 3 "~" H 4850 3450 50  0001 C CNN
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3650 3450 3600 3450
+	4850 3600 4850 3700
 Wire Wire Line
-	3600 3450 3600 4500
-Connection ~ 3600 4500
+	4200 750  4200 650 
 Wire Wire Line
-	3600 4500 3950 4500
+	4200 650  6550 650 
 Wire Wire Line
-	4000 3350 3950 3350
+	5000 800  5000 750 
 Wire Wire Line
-	3950 3350 3950 4500
-Connection ~ 3950 4500
+	5000 750  6550 750 
 Wire Wire Line
-	3950 4500 4350 4500
+	4350 1600 4350 1550
 Wire Wire Line
-	4400 3250 4350 3250
+	4350 1550 5650 1550
 Wire Wire Line
-	4350 3250 4350 3950
-Connection ~ 4350 3950
+	5650 1550 5650 850 
 Wire Wire Line
-	4350 3950 5050 3950
+	5650 850  6550 850 
 Wire Wire Line
-	4350 3950 4350 4500
+	5200 1650 5200 1600
+Wire Wire Line
+	5200 1600 5750 1600
+Wire Wire Line
+	5750 1600 5750 950 
+Wire Wire Line
+	5750 950  6550 950 
+Wire Wire Line
+	4550 2450 4550 2400
+Wire Wire Line
+	4550 2400 5850 2400
+Wire Wire Line
+	5850 2400 5850 1050
+Wire Wire Line
+	5850 1050 6550 1050
+Wire Wire Line
+	5450 2500 5450 2450
+Wire Wire Line
+	5450 2450 5950 2450
+Wire Wire Line
+	5950 2450 5950 1150
+Wire Wire Line
+	5950 1150 6550 1150
+Wire Wire Line
+	4850 3300 4850 3250
+Wire Wire Line
+	4850 3250 6050 3250
+Wire Wire Line
+	6050 3250 6050 1250
+Wire Wire Line
+	6050 1250 6550 1250
+Wire Wire Line
+	5700 3350 5700 3300
+Wire Wire Line
+	5700 3300 6150 3300
+Wire Wire Line
+	6150 1350 6550 1350
+Wire Wire Line
+	6150 1350 6150 3300
+Wire Wire Line
+	5000 1100 5000 1150
+Wire Wire Line
+	5200 1950 5200 2000
+Wire Wire Line
+	5450 2800 5450 2850
+Wire Wire Line
+	5700 3650 5700 3700
+Wire Wire Line
+	4200 1450 4200 1500
+Wire Wire Line
+	4200 1500 3700 1500
+Wire Wire Line
+	3700 1500 3700 2350
+Wire Wire Line
+	3700 3050 3400 3050
+Wire Wire Line
+	5000 1450 5000 1500
+Wire Wire Line
+	5000 1500 4200 1500
+Connection ~ 4200 1500
+Wire Wire Line
+	5200 2300 5200 2350
+Wire Wire Line
+	5200 2350 4350 2350
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2350 3700 3050
+Wire Wire Line
+	4350 2300 4350 2350
+Connection ~ 4350 2350
+Wire Wire Line
+	4350 2350 3700 2350
+Wire Wire Line
+	5450 3150 5450 3200
+Wire Wire Line
+	5450 3200 4550 3200
+Wire Wire Line
+	3700 3200 3700 3050
+Connection ~ 3700 3050
+Wire Wire Line
+	4550 3150 4550 3200
+Connection ~ 4550 3200
+Wire Wire Line
+	4550 3200 3700 3200
+Wire Wire Line
+	5700 4000 5700 4050
+Wire Wire Line
+	5700 4050 4850 4050
+Wire Wire Line
+	3700 4050 3700 3200
+Connection ~ 3700 3200
+Wire Wire Line
+	4850 4000 4850 4050
+Connection ~ 4850 4050
+Wire Wire Line
+	4850 4050 3700 4050
 $EndSCHEMATC
